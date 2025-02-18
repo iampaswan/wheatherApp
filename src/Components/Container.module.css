@@ -1,0 +1,39 @@
+h1 {
+  margin-top: -20rem;
+  color: rgb(111, 110, 209);
+}
+
+.Container {
+  border: 2px solid black;
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.inputButton {
+  width: 220px;
+  height: 40px;
+  background-color: rgb(154, 106, 250);
+  border-radius: 2rem;
+  color: white;
+  border: none;
+  font-size: larger;
+}
+
+.inputButton:hover {
+  background-color: rgb(21, 122, 38);
+}
+
+.inputBox {
+  width: 220px;
+  height: 40px;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: 1px solid black;
+  font-size: larger;
+}
